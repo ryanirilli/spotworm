@@ -1,0 +1,10 @@
+{
+  "name": "spotworm",
+  "version": "1.0.0",
+  "description": "a spotify music discovery service",
+  "main": "index.js",
+  "repository": "https://github.com/ryanirilli/spotworm",
+  "author": "Ryan Irilli",
+  "license": "MIT",
+  "private": false
+}
