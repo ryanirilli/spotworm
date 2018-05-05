@@ -6,5 +6,15 @@
   "repository": "https://github.com/ryanirilli/spotworm",
   "author": "Ryan Irilli",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "engines": {
+    "node": "9.11.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client/ && yarn && yarn build"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
