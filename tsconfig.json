@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "build",
+    "lib": ["es6"]
+  },
+  "exclude": [
+    "client/*"
+  ]
+}

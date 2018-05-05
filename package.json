@@ -11,10 +11,19 @@
     "node": "9.11.x"
   },
   "scripts": {
-    "start": "node index.js",
-    "heroku-prebuild": "cd client/ && yarn && yarn build"
+    "start": "node build/index.js",
+    "heroku-prebuild": "tsc && cd client/ && yarn && yarn build"
   },
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/node": "^10.0.4",
+    "prettier": "1.12.1",
+    "typescript": "^2.8.3"
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }
