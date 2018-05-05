@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "cd client/ && yarn && yarn build"
+    "heroku-prebuild": "cd client/ && yarn && yarn build"
   },
   "dependencies": {
     "express": "^4.16.3"
