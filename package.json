@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "node build/index.js",
-    "heroku-prebuild": "tsc && cd client/ && yarn && yarn build"
+    "heroku-postbuild": "tsc && cd client/ && yarn && yarn build"
   },
   "dependencies": {
     "express": "^4.16.3"
